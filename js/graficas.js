@@ -33,7 +33,7 @@ var lineaSospechosos = new Chart(sospechosos, {
 var ciudades = document.getElementById('ciudades').getContext('2d');
 
 var lineaCiudades = new Chart( ciudades, {
-  type: 'bar',
+  type: 'pie',
   data: {
     labels: ['Celaya', 'Guanajuato', 'Irapuato', 'León', 'Salamanca', 'San Luis de la Paz', 'San Miguel de Ayende', 'Silao', 'Valle de Santiago'],
     datasets: [{
@@ -63,5 +63,5 @@ var lineaCiudades = new Chart( ciudades, {
       ],
       borderWidth: 1
     }]
-  } // data
+  }, // data
 });

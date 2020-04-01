@@ -28,6 +28,25 @@ div.contenedor{
         margin-top: 40px;
     }
 }
+div.actualizado{
+  display: none;
+}
+@media only screen and (min-width: 768px){
+  div.actualizado{
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 15px;
+    background-color: gray;
+    width: 300px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+  }
+  div.actualizado p{
+    text-align: center;
+  }
+}
+
 
 /* Mapa */
 #map{
@@ -47,9 +66,14 @@ div.contenedor{
   margin-left: 5px;
 }
 /* Graficas */
-#contagiados{
+canvas{
   width: 90%;
   display: block;
   margin: auto;
-  max-height: 700px;
+  max-height: 1000px;
+}
+@media only screen and (min-width: 768px){
+  canvas{
+    max-height: 700px;
+  }
 }

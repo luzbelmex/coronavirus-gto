@@ -11,4 +11,4 @@ Proyecto para darle un mejor Seguimiento a la pandemia
 ## Bibliotecas Utilizadas
 
 * [Leaflet](https://leafletjs.com/) - Mapa
-* [ChartJS](https://leafletjs.com/) - Graficas
+* [ChartJS](https://www.chartjs.org/) - Graficas

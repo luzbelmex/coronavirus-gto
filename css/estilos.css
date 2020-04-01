@@ -41,6 +41,7 @@ div.actualizado{
     width: 300px;
     color: white;
     border-radius: 0 0 10px 10px;
+    z-index: 100000;
   }
   div.actualizado p{
     text-align: center;

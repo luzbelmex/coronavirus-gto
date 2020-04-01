@@ -65,11 +65,16 @@ div.actualizado{
   color: rgba(255, 0, 0, 0.5);
   margin-left: 5px;
 }
-
 .sospechosos{
   border-radius: 50%;
   border: 2px solid #ffc300;
   color: rgba(255, 205, 43, 0.5);
+  margin-left: 5px;
+}
+.libres{
+  border-radius: 50%;
+  border: 2px solid #1e8449;
+  color: rgba(35, 155, 86, 0.5);
   margin-left: 5px;
 }
 /* Graficas */

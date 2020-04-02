@@ -100,7 +100,7 @@ var irapuato = L.circle([20.675245, -101.344379],{
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
-    radius: 700
+    radius: 600
 }).addTo(map).bindPopup('Irapuato');
 
  var jaral = L.circle([20.371957, -101.064334],{
@@ -121,7 +121,7 @@ var leon = L.circle([21.121830, -101.682481],{
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
-    radius: 3000
+    radius: 1500
 }).addTo(map).bindPopup('León');
 
  var manuelDoblado = L.circle([20.729548, -101.953144],{

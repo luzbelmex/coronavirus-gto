@@ -1,0 +1,370 @@
+{
+    "ciudades" : [
+        { 
+            "nombre" : "Abasolo",
+            "cordenadaN" : "20.452199",
+            "cordenadaW" : "-101.529024",
+            "contagiados" : 0,
+            "sospechosos" : 6
+        },
+
+        { 
+            "nombre" : "Acámbaro",
+            "cordenadaN" : "20.035770",
+            "cordenadaW" : "-100.716935",
+            "contagiados" : 0,
+            "sospechosos" : 6
+        },
+
+        { 
+            "nombre" : "Apaseo el Alto",
+            "cordenadaN" : "20.458464",
+            "cordenadaW" : "-100.621415",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },
+
+        { 
+            "nombre" : "Apaseo el Grande",
+            "cordenadaN" : "20.545219",
+            "cordenadaW" : "-100.686487",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },
+
+        { 
+            "nombre" : "Atargea",
+            "cordenadaN" : "21.266927",
+            "cordenadaW" : "-99.719153",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },
+
+        { 
+            "nombre" : "Celaya",
+            "cordenadaN" : "20.525643",
+            "cordenadaW" : "-100.813928",
+            "contagiados" : 4,
+            "sospechosos" : 6
+        },
+
+        { 
+            "nombre" : "Comonfort",
+            "cordenadaN" : "20.714684",
+            "cordenadaW" : "-100.758431",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },
+
+        { 
+            "nombre" : "Coroneo",
+            "cordenadaN" : "20.201288",
+            "cordenadaW" : "-100.368406",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },
+
+        { 
+            "nombre" : "Cortazar",
+            "cordenadaN" : "20.478907",
+            "cordenadaW" : "-100.959399",
+            "contagiados" : 0,
+            "sospechosos" : 2
+        },
+
+        { 
+            "nombre" : "Cueramaro",
+            "cordenadaN" : "20.626446",
+            "cordenadaW" : "-101.671127",
+            "contagiados" : 0,
+            "sospechosos" : 3
+        },
+
+        { 
+            "nombre" : "Doctor Mora",
+            "cordenadaN" : "21.142381",
+            "cordenadaW" : "-100.319464",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },
+
+        { 
+            "nombre" : "Dolores Hidalgo",
+            "cordenadaN" : "21.156256",
+            "cordenadaW" : "-100.934015",
+            "contagiados" : 0,
+            "sospechosos" : 3
+        },
+
+        { 
+            "nombre" : "Guanajuato",
+            "cordenadaN" : "21.018412",
+            "cordenadaW" : "-101.255928",
+            "contagiados" : 2,
+            "sospechosos" : 4
+        },
+
+        { 
+            "nombre" : "Guanimaro",
+            "cordenadaN" : "20.368187",
+            "cordenadaW" : "-101.496742",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },
+
+        { 
+            "nombre" : "Irapuato",
+            "cordenadaN" : "20.675245",
+            "cordenadaW" : "-101.344379",
+            "contagiados" : 6,
+            "sospechosos" : 7
+        },
+
+        { 
+            "nombre" : "Jaral del Progreso",
+            "cordenadaN" : "20.371957",
+            "cordenadaW" : "-101.064334",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },
+
+        { 
+            "nombre" : "Jerecuaro",
+            "cordenadaN" : "20.150831",
+            "cordenadaW" : "-100.508798",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },
+
+        { 
+            "nombre" : "León",
+            "cordenadaN" : "21.121830",
+            "cordenadaW" : "-101.682481",
+            "contagiados" : 30,
+            "sospechosos" : 71
+        },
+
+        { 
+            "nombre" : "Manuel Doblado",
+            "cordenadaN" : "20.729548",
+            "cordenadaW" : "-101.953144",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },
+
+        { 
+            "nombre" : "Moroleon",
+            "cordenadaN" : "20.125079",
+            "cordenadaW" : "-101.196217",
+            "contagiados" : 0,
+            "sospechosos" : 3
+        },
+
+        { 
+            "nombre" : "Ocampo",
+            "cordenadaN" : "21.647678",
+            "cordenadaW" : "-101.478420",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },     
+
+        { 
+            "nombre" : "Pénjamo",
+            "cordenadaN" : "20.431298",
+            "cordenadaW" : "-101.722123",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },       
+
+        { 
+            "nombre" : "Pueblo Nuevo",
+            "cordenadaN" : "20.526844",
+            "cordenadaW" : "-101.371324",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },       
+
+        { 
+            "nombre" : "Purisima del Rincon",
+            "cordenadaN" : "20.889676",
+            "cordenadaW" : "-101.912435",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },       
+
+        { 
+            "nombre" : "Romita",
+            "cordenadaN" : "20.872123",
+            "cordenadaW" : "-101.51667",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },       
+
+        { 
+            "nombre" : "Salamanca",
+            "cordenadaN" : "20.572517",
+            "cordenadaW" : "-101.191197",
+            "contagiados" : 2,
+            "sospechosos" : 6
+        },       
+
+        { 
+            "nombre" : "Salvatierra",
+            "cordenadaN" : "20.211976",
+            "cordenadaW" : "-100.880958",
+            "contagiados" : 0,
+            "sospechosos" : 3
+        },       
+
+        { 
+            "nombre" : "San Diego de la Union",
+            "cordenadaN" : "21.467901",
+            "cordenadaW" : "-100.872875",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },       
+
+        { 
+            "nombre" : "San Felipe",
+            "cordenadaN" : "21.478435",
+            "cordenadaW" : "-101.213493",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },            
+
+        { 
+            "nombre" : "San Francisco del Rincon",
+            "cordenadaN" : "21.018723",
+            "cordenadaW" : "-101.857413",
+            "contagiados" : 0,
+            "sospechosos" : 2
+        },            
+
+        { 
+            "nombre" : "San Jose Iturbide",
+            "cordenadaN" : "20.998587",
+            "cordenadaW" : "-100.385738",
+            "contagiados" : 0,
+            "sospechosos" : 2
+        },            
+
+        { 
+            "nombre" : "San Luis de la Paz",
+            "cordenadaN" : "21.297578",
+            "cordenadaW" : "-100.517204",
+            "contagiados" : 1,
+            "sospechosos" : 1
+        },            
+
+        { 
+            "nombre" : "San Miguel de Ayende",
+            "cordenadaN" : "20.913036",
+            "cordenadaW" : "-100.745744",
+            "contagiados" : 2,
+            "sospechosos" : 1
+        },            
+
+        { 
+            "nombre" : "Santa Catarina",
+            "cordenadaN" : "21.142705",
+            "cordenadaW" : "-100.071756",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },            
+
+        { 
+            "nombre" : "Santa Cruz de Juventino",
+            "cordenadaN" : "20.644057",
+            "cordenadaW" : "-100.993401",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },            
+
+        { 
+            "nombre" : "Santiago Maravatío",
+            "cordenadaN" : "20.172562",
+            "cordenadaW" : "-100.993401",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },            
+
+        { 
+            "nombre" : "Silao",
+            "cordenadaN" : "20.947407",
+            "cordenadaW" : "-101.425863",
+            "contagiados" : 1,
+            "sospechosos" : 3
+        },            
+
+        { 
+            "nombre" : "Tarandacuao",
+            "cordenadaN" : "20.003777",
+            "cordenadaW" : "-100.519427",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },            
+
+        { 
+            "nombre" : "Tarimoro",
+            "cordenadaN" : "20.284702",
+            "cordenadaW" : "-100.754054",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },            
+
+        { 
+            "nombre" : "Uriangato",
+            "cordenadaN" : "20.284702",
+            "cordenadaW" : "-100.754054",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },            
+
+        { 
+            "nombre" : "Valle de Santiago",
+            "cordenadaN" : "20.390977",
+            "cordenadaW" : "-101.193464",
+            "contagiados" : 1,
+            "sospechosos" : 1
+        },            
+
+        { 
+            "nombre" : "Victoria",
+            "cordenadaN" : "21.211494",
+            "cordenadaW" : "-100.216496",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },            
+
+        { 
+            "nombre" : "Villagrán",
+            "cordenadaN" : "20.516307",
+            "cordenadaW" : "-100.997578",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        },            
+
+        { 
+            "nombre" : "Xichú",
+            "cordenadaN" : "21.299218",
+            "cordenadaW" : "-100.056449",
+            "contagiados" : 0,
+            "sospechosos" : 0
+        },            
+
+        { 
+            "nombre" : "Yuriria",
+            "cordenadaN" : "20.211997",
+            "cordenadaW" : "-101.131539",
+            "contagiados" : 0,
+            "sospechosos" : 1
+        }
+        
+    ],
+
+    "sospechosos" : "rgba(255, 205, 43, 0.5)",
+
+    "confirmados" : "rgba(255, 0, 0, 0.5)",
+
+    "libres" : "rgba(35, 155, 86, 0.5)"
+}

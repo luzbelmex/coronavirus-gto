@@ -9,7 +9,7 @@ var acambaro = L.circle([20.035770, -100.716935],{
     color: '#ffc300',
     fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 600
+    radius: 700
 }).addTo(map).bindPopup('Acámbaro');
 
 var apaseoA = L.circle([20.458464, -100.621415],{
@@ -65,7 +65,7 @@ var cortazar = L.circle([20.478907, -100.959399],{
      color: '#ffc300',
      fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 300
+    radius: 400
 }).addTo(map).bindPopup('Cueramaro');
 
  var doctor = L.circle([21.142381, -100.319464],{
@@ -79,7 +79,7 @@ var dolores = L.circle([21.156256, -100.934015],{
     color: '#ffc300',
     fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 300
+    radius: 100
 }).addTo(map).bindPopup('Dolores Hidalgo');
 
 var guanajuato = L.circle([21.018412, -101.255928],{
@@ -100,7 +100,7 @@ var irapuato = L.circle([20.675245, -101.344379],{
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
-    radius: 600
+    radius: 700
 }).addTo(map).bindPopup('Irapuato');
 
  var jaral = L.circle([20.371957, -101.064334],{
@@ -135,7 +135,7 @@ var leon = L.circle([21.121830, -101.682481],{
      color: '#ffc300',
      fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 300
+    radius: 100
 }).addTo(map).bindPopup('Moroleon');
 
 var ocampo = L.circle([21.647678, -101.478420],{
@@ -163,7 +163,7 @@ var penjamo = L.circle([20.431298, -101.722123],{
      color: '#ffc300',
      fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 100
+    radius: 300
 }).addTo(map).bindPopup('Purisima del Rincon');
 
  var romita = L.circle([20.872123, -101.51667],{
@@ -237,10 +237,10 @@ var sma = L.circle([20.913036, -100.745744],{
 }).addTo(map).bindPopup('Santa Catarina');
 
  var santaCJR = L.circle([20.644057, -100.993401],{
-    color: '#1e8449',
-    fillColor: '#239b56',
+    color: '##ffc300',
+    fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 0
+    radius: 100
 }).addTo(map).bindPopup('Santa Cruz de Juventino Rosas');
 
  var santiago = L.circle([20.172562, -100.993369],{

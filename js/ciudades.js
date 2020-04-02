@@ -61,7 +61,7 @@ var cortazar = L.circle([20.478907, -100.959399],{
     radius: 200
 }).addTo(map).bindPopup('Cortazar');
 
- var cueramaro = L.circle([20.478907, -100.959399],{
+ var cueramaro = L.circle([20.626446, -101.671127],{
      color: '#ffc300',
      fillColor: '#ffcd2b',
     fillOpacity: 0.5,
@@ -243,7 +243,7 @@ var sma = L.circle([20.913036, -100.745744],{
     radius: 0
 }).addTo(map).bindPopup('Santa Cruz de Juventino Rosas');
 
- var santiago = L.circle([20.644057, -100.993401],{
+ var santiago = L.circle([20.172562, -100.993369],{
     color: '#1e8449',
     fillColor: '#239b56',
     fillOpacity: 0.5,

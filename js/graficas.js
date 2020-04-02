@@ -3,14 +3,22 @@ var contagiados = document.getElementById('contagiados').getContext('2d');
 var lineaContagiados = new Chart( contagiados, {
     type: 'line',
     data: {
-      labels: ['16-Marzo', '17-Marzo', '18-Marzo', '19-Marzo', '20-Marzo', '21-Marzo', '22-Marzo', '23-Marzo', '24-Marzo', '25-Marzo', '26-Marzo', '27-Marzo', '28-Marzo', '29-Marzo', '30-Marzo', '31-Marzo', '1-Abril', '2-Abril'],
+      labels: ['15-Marzo','16-Marzo', '17-Marzo', '18-Marzo', '19-Marzo', '20-Marzo', '21-Marzo', '22-Marzo', '23-Marzo', '24-Marzo', '25-Marzo', '26-Marzo', '27-Marzo', '28-Marzo', '29-Marzo', '30-Marzo', '31-Marzo', '1-Abril', '2-Abril'],
       datasets: [{
         label: 'Contagiados',
-        data: [1, 1, 4, 4, 4, 4, 7, 9, 13, 25, 31, 31, 37, 37, 43, 46, 49, 50 ],
-        backgroundColor:'rgba(255, 0, 0, 0.3)',
+        data: [0, 1, 1, 4, 4, 4, 4, 7, 9, 13, 25, 31, 31, 37, 37, 43, 46, 49, 50 ],
+        backgroundColor:'rgba(255, 0, 0, 0.0)',
         borderColor: 'rgb(255, 0, 0)',
         borderWidth: 3
-      }]
+      }, // confirmados
+      {
+        label: 'Recuperados',
+        data: [, , , , , , , , , , , , , , , , 0, 16, 16 ],
+        backgroundColor:'rgba(35, 155, 86, 0.0)',
+        borderColor: 'rgb(35, 155, 86)',
+        borderWidth: 3
+      } // recuperados
+    ]
     }, // data
 });
 
@@ -26,7 +34,7 @@ var lineaSospechosos = new Chart(sospechosos, {
       backgroundColor: 'rgba(255, 195, 0, 0.3)',
       borderColor: '#ffc300',
       borderWidth: 3
-    }]
+    }] // datasets
   }
 });
 
@@ -39,29 +47,25 @@ var lineaCiudades = new Chart( ciudades, {
     datasets: [{
       label: 'Contagiados',
       data: [4, 2, 7, 30, 2, 1, 2, 1, 1],
-      backgroundColor: [
-        'rgba(10, 200, 230, 0.6)',
-        'rgba(230, 100, 15, 0.6)',
-        'rgba(230, 230, 10, 0.6)',
-        'rgba(80, 200, 10, 0.6)',
-        'rgba(200, 10, 230, 0.6)',
-        'rgba(10, 90, 230, 0.6)',
-        'rgba(230, 50, 10, 0.6)',
-        'rgba(10, 230, 150, 0.6)',
-        'rgba(230, 10, 177, 0.6)'
-      ],
-      borderColor: [
-        'rgb(10, 200, 230)',
-        'rgb(230, 100, 15)',
-        'rgb(230, 230, 10)',
-        'rgb(80, 200, 10)',
-        'rgb(200, 10, 230)',
-        'rgb(10, 90, 230)',
-        'rgb(230, 50, 10)',
-        'rgb(10, 230, 150)',
-        'rgb(230, 10, 177)'
-      ],
+      backgroundColor: 'rgba(255, 0, 0, .7)',
+      borderColor: 'rgb(255, 0, 0)',
       borderWidth: 1
-    }]
+    },
+    {
+      label: 'Recuperados',
+      data: [0, 0, 1, 15, 0, 0, 0, 0, 0],
+      backgroundColor: 'rgba(35, 155, 86, .7)',
+      borderColor: 'rgb(35, 155, 86)',
+      borderWidth: 1
+    },
+    {
+      label: 'Sospechosos',
+      data: [4, 2, 10, 66, 9, 1, 0, 6, 1],
+      backgroundColor: 'rgba(255, 205, 43, 0.5)',
+      borderColor: 'rgb(255, 205, 43)',
+    }
+  ],
+
   }, // data
+
 });

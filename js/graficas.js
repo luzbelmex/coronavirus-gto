@@ -14,7 +14,7 @@ var lineaContagiados = new Chart( contagiados, {
     }, // data
 });
 
-var sospechosos = document.getElementById('sospechosos');
+var sospechosos = document.getElementById('sospechosos').getContext('2d');
 
 var lineaSospechosos = new Chart(sospechosos, {
   type: 'line',
@@ -33,7 +33,7 @@ var lineaSospechosos = new Chart(sospechosos, {
 var ciudades = document.getElementById('ciudades').getContext('2d');
 
 var lineaCiudades = new Chart( ciudades, {
-  type: 'pie',
+  type: 'horizontalBar',
   data: {
     labels: ['Celaya', 'Guanajuato', 'Irapuato', 'León', 'Salamanca', 'San Luis de la Paz', 'San Miguel de Ayende', 'Silao', 'Valle de Santiago'],
     datasets: [{

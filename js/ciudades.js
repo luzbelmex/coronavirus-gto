@@ -1,8 +1,8 @@
 var abasolo = L.circle([20.452199, -101.529024],{
-    color: '#1e8449',
-    fillColor: '#239b56',
+    color: '#ffc300',
+    fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 50
+    radius: 100
 }).addTo(map).bindPopup('Abasolo');
 
 var acambaro = L.circle([20.035770, -100.716935],{
@@ -58,7 +58,7 @@ var cortazar = L.circle([20.478907, -100.959399],{
     color: '#ffc300',
     fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 200
+    radius: 300
 }).addTo(map).bindPopup('Cortazar');
 
  var cueramaro = L.circle([20.626446, -101.671127],{
@@ -86,7 +86,7 @@ var guanajuato = L.circle([21.018412, -101.255928],{
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
-    radius: 200
+    radius: 400
 }).addTo(map).bindPopup('Guanajuato');
 
  var huanimaro = L.circle([20.368187, -101.496742],{
@@ -114,7 +114,7 @@ var irapuato = L.circle([20.675245, -101.344379],{
      color: '#ffc300',
      fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 300
+    radius: 200
 }).addTo(map).bindPopup('Jerecuaro');
 
 var leon = L.circle([21.121830, -101.682481],{
@@ -135,7 +135,7 @@ var leon = L.circle([21.121830, -101.682481],{
      color: '#ffc300',
      fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 100
+    radius: 400
 }).addTo(map).bindPopup('Moroleon');
 
 var ocampo = L.circle([21.647678, -101.478420],{
@@ -153,10 +153,10 @@ var penjamo = L.circle([20.431298, -101.722123],{
 }).addTo(map).bindPopup('Pénjamo');
 
  var pueblo = L.circle([20.526844, -101.371324],{
-    color: '#1e8449',
-    fillColor: '#239b56',
+    color: '#ffc300',
+    fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 0
+    radius: 100
 }).addTo(map).bindPopup('Pueblo Nuevo');
 
  var purisima = L.circle([20.889676, -101.912435],{
@@ -184,28 +184,28 @@ var salvatierra = L.circle([20.211976, -100.880958],{
     color: '#ffc300',
     fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 300
+    radius: 200
 }).addTo(map).bindPopup('Salvatierra');
 
  var sanDiego = L.circle([21.467901, -100.872875],{
-    color: '#1e8449',
-    fillColor: '#239b56',
+    color: '#ffc300',
+    fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 0
+    radius: 100
 }).addTo(map).bindPopup('San Diego de la Unión');
 
  var sanFelipe = L.circle([21.478435, -101.213493],{
-    color: '#1e8449',
-    fillColor: '#239b56',
+    color: '#ffc300',
+    fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 100
+    radius: 200
 }).addTo(map).bindPopup('San Felipe');
 
 var sfr = L.circle([21.018723, -101.857413],{
     color: '#ffc300',
     fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 200
+    radius: 600
 }).addTo(map).bindPopup('San Fancisco del Rincón');
 
  var sanJose = L.circle([20.998587, -100.385738],{
@@ -279,10 +279,10 @@ var silao = L.circle([20.947407, -101.425863],{
 }).addTo(map).bindPopup('Tierra Blanca');
 
  var uriangato = L.circle([20.141507, -101.173776],{
-    color: '#1e8449',
-    fillColor: '#239b56',
+    color: '#ffc300',
+    fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 0
+    radius: 300
 }).addTo(map).bindPopup('Uriangato');
 
 var vds = L.circle([20.390977, -101.193464],{
@@ -307,15 +307,15 @@ var vds = L.circle([20.390977, -101.193464],{
 }).addTo(map).bindPopup('Villagrán');
 
  var xichu = L.circle([21.299218, -100.056449],{
-    color: '#1e8449',
-    fillColor: '#239b56',
+    color: '#ffc300',
+    fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 0
+    radius: 100
 }).addTo(map).bindPopup('Xichú');
 
  var yuriria = L.circle([20.211997, -101.131539],{
      color: '#ffc300',
      fillColor: '#ffcd2b',
     fillOpacity: 0.5,
-    radius: 100
+    radius: 200
 }).addTo(map).bindPopup('Yuriria');

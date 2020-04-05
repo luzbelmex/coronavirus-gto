@@ -102,6 +102,10 @@ div.opcion:nth-child(4){
         height: 80%;
     }
 }
+.hospital{
+  width: 1.4em;
+  margin-left: 5px;
+}
 .confirmados{
   border-radius: 50%;
   border: 2px solid red;

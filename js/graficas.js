@@ -6,14 +6,14 @@ var lineaContagiados = new Chart( contagiados, {
       labels: ['15-Marzo','16-Marzo', '17-Marzo', '18-Marzo', '19-Marzo', '20-Marzo', '21-Marzo', '22-Marzo', '23-Marzo', '24-Marzo', '25-Marzo', '26-Marzo', '27-Marzo', '28-Marzo', '29-Marzo', '30-Marzo', '31-Marzo', '1-Abril', '2-Abril', '3-Abril', '4-Abril', '5-Abril', '6-Abril', '7-Abril'],
       datasets: [{
         label: 'Contagiados',
-        data: [0, 1, 1, 4, 4, 4, 4, 7, 9, 13, 25, 31, 31, 37, 37, 43, 46, 49, 50, 52, 54, 54, 58 ],
+        data: [0, 1, 1, 4, 4, 4, 4, 7, 9, 13, 25, 31, 31, 37, 37, 43, 46, 49, 50, 52, 54, 54, 58, 62 ],
         backgroundColor:'rgba(255, 0, 0, 0.0)',
         borderColor: 'rgb(255, 0, 0)',
         borderWidth: 3
       }, // confirmados
       {
         label: 'Recuperados',
-        data: [, , , , , , , , , , , , , , , , 0, 16, 16, 16, 17, 17, 17 ],
+        data: [, , , , , , , , , , , , , , , , 0, 16, 16, 16, 17, 17, 17, 17 ],
         backgroundColor:'rgba(35, 155, 86, 0.0)',
         borderColor: 'rgb(35, 155, 86)',
         borderWidth: 3

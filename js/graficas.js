@@ -80,5 +80,4 @@ var lineaCiudades = new Chart( ciudades, {
   ],
 
   }, // data
-
 });

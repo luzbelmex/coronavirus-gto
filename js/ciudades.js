@@ -10,53 +10,53 @@ function Municipio(nombre, sospechosos, confirmados, recuperados, fallecidos) {
   this.fallecidos = fallecidos;
 }
 
-var abasolo = new Municipio('Abasolo', 2, 2, 0, 0);
-var acambaro = new Municipio('Acambaro', 18, 12, 0, 3 );
-var apaseoA = new Municipio('Apaseo el Alto', 2, 1, 0, 0);
-var apaseoG = new Municipio('Apaseo el Grande', 10, 0, 0, 0);
+var abasolo = new Municipio('Abasolo', 1, 2, 0, 0);
+var acambaro = new Municipio('Acambaro', 7, 12, 0, 3 );
+var apaseoA = new Municipio('Apaseo el Alto', 1, 1, 0, 0);
+var apaseoG = new Municipio('Apaseo el Grande', 10, 2, 0, 0);
 var atargea = new Municipio('Atargea', 0, 0, 0, 0);
-var celaya = new Municipio('Celaya', 32, 17, 5, 4);
+var celaya = new Municipio('Celaya', 35, 18, 5, 4);
 var comonfort = new Municipio('Comonfort', 5, 1, 0, 0);
-var coroneo = new Municipio('Coroneo', 16, 0, 0, 0);
+var coroneo = new Municipio('Coroneo', 5, 0, 0, 0);
 var cortazar = new Municipio('Cortazar', 4, 9, 0, 1);
-var cueramaro = new Municipio('Cueramaro', 6, 0, 0, 0);
+var cueramaro = new Municipio('Cueramaro', 5, 0, 0, 0);
 var doctorM = new Municipio ('Doctor Mora', 0, 0, 0, 0);
 var doloresH = new Municipio('Dolores Hidalgo', 5, 2, 0, 0);
-var guanajuato = new Municipio('Guanajuato', 21, 8, 4, 1);
-var huanimaro = new Municipio('Huanimaro', 8, 0, 0, 0);
-var irapuato = new Municipio('Irapuato', 48, 31, 9, 0);
-var jaral = new Municipio('Jaral del Progreso', 0, 0, 0, 0);
-var jerecuaro = new Municipio('Jérecuaro', 22, 1, 0, 0);
-var leon = new Municipio('Leon', 141, 74, 34, 2);
+var guanajuato = new Municipio('Guanajuato', 12, 9, 4, 1);
+var huanimaro = new Municipio('Huanimaro', 3, 0, 0, 0);
+var irapuato = new Municipio('Irapuato', 46, 34, 9, 0);
+var jaral = new Municipio('Jaral del Progreso', 2, 0, 0, 0);
+var jerecuaro = new Municipio('Jérecuaro', 10, 1, 0, 0);
+var leon = new Municipio('Leon', 282, 74, 34, 2);
 var manuel = new Municipio('Manuel Doblado', 0, 0, 0, 0);
-var moroleon = new Municipio('Moroleon', 9, 6, 4, 1);
-var ocampo = new Municipio('Ocampo', 4, 0, 0, 0);
-var penjamo = new Municipio('Pénjamo', 10, 8, 0, 1);
-var pueblo = new Municipio('Pueblo Nuevo', 3, 0, 0, 0);
+var moroleon = new Municipio('Moroleon', 10, 7, 4, 2);
+var ocampo = new Municipio('Ocampo', 2, 0, 0, 0);
+var penjamo = new Municipio('Pénjamo', 15, 8, 0, 1);
+var pueblo = new Municipio('Pueblo Nuevo', 0, 0, 0, 0);
 var purisima = new Municipio('Purísima del Rincón', 2, 0, 0, 0);
-var romita = new Municipio('Romita', 4, 4, 0, 1);
-var salamanca = new Municipio('Salamanca', 25, 52, 17, 6);
-var salvaTierra = new Municipio('Salvatierra', 31, 6, 0, 1);
-var sanDiego = new Municipio('San Diego de la Unión', 2, 0, 0, 0);
-var sanFelipe = new Municipio('San Felipe', 6, 0, 0, 0);
-var sanFrancisco = new Municipio('San Francisco del Rincón', 7, 0, 0, 0);
-var sanJose = new Municipio('San Jose de Iturbide', 1, 0, 0, 0);
-var sanLuis = new Municipio('San Luis de la Paz', 3, 4, 1, 0);
-var sanMiguel = new Municipio('San Miguel de Ayende', 3, 7, 3, 0);
+var romita = new Municipio('Romita', 8, 11, 0, 1);
+var salamanca = new Municipio('Salamanca', 21, 54, 18, 6);
+var salvaTierra = new Municipio('Salvatierra', 20, 6, 0, 1);
+var sanDiego = new Municipio('San Diego de la Unión', 8, 0, 0, 0);
+var sanFelipe = new Municipio('San Felipe', 11, 0, 0, 0);
+var sanFrancisco = new Municipio('San Francisco del Rincón', 2, 0, 0, 0);
+var sanJose = new Municipio('San Jose de Iturbide', 0, 0, 0, 0);
+var sanLuis = new Municipio('San Luis de la Paz', 2, 5, 1, 1);
+var sanMiguel = new Municipio('San Miguel de Ayende', 4, 7, 3, 0);
 var santaC = new Municipio('Santa Catarina', 0, 0, 0, 0);
 var juventino = new Municipio('Juventino Rosas', 2, 2, 0, 0);
-var santiago = new Municipio('Santiago Maravatío', 9, 0, 0, 0);
-var silao = new Municipio('Silao', 3, 9, 1, 1);
-var tarandacuao = new Municipio('Tarandacuao', 5, 0, 0, 0);
-var tarimoro = new Municipio('Tarimoro', 5, 1, 0, 0);
-var tierraB = new Municipio('Tierra Blanca', 2, 0, 0, 0); //
-var uriangato = new Municipio('Uriangato', 7, 11, 1, 0);
-var valle = new Municipio('Valle de Santiago', 14, 4, 1, 0);
+var santiago = new Municipio('Santiago Maravatío', 3, 1, 0, 0);
+var silao = new Municipio('Silao', 7, 9, 1, 1);
+var tarandacuao = new Municipio('Tarandacuao', 7, 0, 0, 0);
+var tarimoro = new Municipio('Tarimoro', 3, 1, 0, 0);
+var tierraB = new Municipio('Tierra Blanca', 3, 0, 0, 0);
+var uriangato = new Municipio('Uriangato', 8, 11, 1, 0);
+var valle = new Municipio('Valle de Santiago', 10, 5, 1, 0);
 var victoria = new Municipio('Victoria', 0, 0, 0, 0);
-var villagran = new Municipio('Villagrán', 5, 1, 0, 0);
+var villagran = new Municipio('Villagrán', 4, 1, 0, 0);
 var xichu = new Municipio('Xichu', 0, 0, 0, 0);
-var yuriria = new Municipio('Yuriria', 12, 6, 1, 0);
-var foraneos = new Municipio('Foraneos', 6, 2, 0, 0);
+var yuriria = new Municipio('Yuriria', 16, 6, 1, 0);
+var foraneos = new Municipio('Foraneos', 8, 2, 0, 0);
 
 var confirmados = document.getElementById('confirmados');
 var sumaContagiados =  abasolo.confirmados + acambaro.confirmados + apaseoA.confirmados + apaseoG.confirmados + atargea.confirmados + celaya.confirmados + comonfort.confirmados + coroneo.confirmados + cortazar.confirmados + cueramaro.confirmados + doctorM.confirmados + doloresH.confirmados + guanajuato.confirmados + huanimaro.confirmados + irapuato.confirmados + jaral.confirmados + jerecuaro.confirmados + leon.confirmados + manuel.confirmados + moroleon.confirmados + ocampo.confirmados + penjamo.confirmados + pueblo.confirmados + purisima.confirmados + romita.confirmados + salamanca.confirmados + salvaTierra.confirmados + sanDiego.confirmados + sanFelipe.confirmados + sanFrancisco.confirmados + sanJose.confirmados + sanLuis.confirmados + sanMiguel.confirmados + santaC.confirmados + juventino.confirmados + santiago.confirmados + silao.confirmados + tarandacuao.confirmados + tarimoro.confirmados + tierraB.confirmados + uriangato.confirmados + valle.confirmados + victoria.confirmados + villagran.confirmados + xichu.confirmados + yuriria.confirmados + foraneos.confirmados;
@@ -100,10 +100,10 @@ var apaseoAMap = L.circle([20.458464, -100.621415],{
 }).addTo(map).bindPopup('Apaseo el Alto');
 
 var apaseoGMap = L.circle([20.545219, -100.686487],{
-    color: amarillo,
-    fillColor: amarillo,
+    color: rojo,
+    fillColor: rojo,
     fillOpacity: 0.5,
-    radius: apaseoG.sospechosos * 100
+    radius: apaseoG.confirmados * 100
 }).addTo(map).bindPopup('Apaseo el Grande');
 
 var atargeaMap = L.circle([21.266927, -99.719153],{
@@ -233,10 +233,10 @@ var penjamoMap = L.circle([20.431298, -101.722123],{
 }).addTo(map).bindPopup('Pénjamo');
 
  var puebloMap = L.circle([20.526844, -101.371324],{
-     color: amarillo,
-     fillColor: amarillo,
+     color: verde,
+     fillColor: verde,
      fillOpacity: 0.5,
-     radius: pueblo.sospechosos * 100
+     radius: 0
 }).addTo(map).bindPopup('Pueblo Nuevo');
 
  var purisimaMap = L.circle([20.889676, -101.912435],{
@@ -289,10 +289,10 @@ var sfrMap = L.circle([21.018723, -101.857413],{
 }).addTo(map).bindPopup('San Fancisco del Rincón');
 
  var sanJoseMap = L.circle([20.998587, -100.385738],{
-     color: amarillo,
-     fillColor: amarillo,
+     color: verde,
+     fillColor: verde,
      fillOpacity: 0.5,
-     radius: sanJose.sospechosos * 100
+     radius: 0
 }).addTo(map).bindPopup('San Jose Iturbide');
 
 var slpMap = L.circle([21.297578, -100.517204],{
@@ -352,10 +352,10 @@ var silaoMap = L.circle([20.947407, -101.425863],{
 }).addTo(map).bindPopup('Tarimoro');
 
  var tierraBlancaMap = L.circle([21.098564, -100.16056],{
-     color: verde,
-     fillColor: verde,
+     color: amarillo,
+     fillColor: amarillo,
      fillOpacity: 0.5,
-     radius: 0 * 100
+     radius: tierraB.sospechosos * 100
 }).addTo(map).bindPopup('Tierra Blanca');
 
  var uriangatoMap = L.circle([20.141507, -101.173776],{
